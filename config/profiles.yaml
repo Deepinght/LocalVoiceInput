@@ -1,0 +1,19 @@
+profiles:
+  normal:
+    label: 日常输入
+    description: 适合聊天、邮件和工作笔记。应用已记住的纠错、常见办公词格式、明确的数字表达和轻量标点；保留中文单位与化学名称。
+    example: 请连接WIFI，等待三分钟，进度百分之五十
+    dictionaries: [common]
+    disabled: [unit_normalizer, chemistry_normalizer, 'lua:builtin/science_format']
+  science:
+    label: 专业格式
+    description: 适合技术记录和含数值的文本。在日常处理基础上，将已收录的化学名称转换为化学式、单位转换为规范符号，并应用专业格式规则；建议先审阅。
+    example: 氮气流量一百标方每小时温度五百度
+    dictionaries: [common, science, chemistry, units]
+    disabled: []
+  raw:
+    label: 原始识别
+    description: 适合核对模型结果、排查误替换。仅去掉两端空白，不使用词典、数字整理或 Lua；模型自身的标点与数字处理仍会保留。
+    example: 请把PDF文件发给我，温度五百摄氏度
+    dictionaries: []
+    only: [profile_processor, final_cleanup]

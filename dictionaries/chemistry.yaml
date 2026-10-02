@@ -1,0 +1,6 @@
+terms:
+  - {id: nitrogen, spoken: [氮气, N二, N 2], output: N₂, profiles: [science]}
+  - {id: hydrogen, spoken: [氢气, H二, H 2], output: H₂, profiles: [science]}
+  - {id: oxygen, spoken: [氧气, O二, O 2], output: O₂, profiles: [science]}
+  - {id: carbon_dioxide, spoken: [二氧化碳, C O二, CO二], output: CO₂, profiles: [science]}
+  - {id: water, spoken: [H二O, H 2 O], output: H₂O, profiles: [science]}

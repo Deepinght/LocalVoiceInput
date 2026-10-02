@@ -1,0 +1,22 @@
+# Conservative, explicit spellings shared by daily and professional profiles.
+terms:
+  - id: common_wifi
+    spoken: [WIFI, WI FI]
+    output: Wi-Fi
+    profiles: [normal, science]
+  - id: common_usb_c
+    spoken: [USB C, USBC]
+    output: USB-C
+    profiles: [normal, science]
+  - id: common_pdf
+    spoken: [pdf文件, Pdf文件]
+    output: PDF文件
+    profiles: [normal, science]
+  - id: common_ppt
+    spoken: [ppt文件, Ppt文件]
+    output: PPT文件
+    profiles: [normal, science]
+  - id: common_excel
+    spoken: [excel表格, EXCEL表格]
+    output: Excel表格
+    profiles: [normal, science]

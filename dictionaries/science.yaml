@@ -1,0 +1,9 @@
+terms:
+  - id: usb_c
+    spoken: [USB C, USBC]
+    output: USB-C
+    profiles: [science]
+  - id: wifi
+    spoken: [WIFI, WI FI]
+    output: Wi-Fi
+    profiles: [science]

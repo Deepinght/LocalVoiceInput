@@ -1,0 +1,34 @@
+hotkey:
+  push_to_talk: Ctrl+Alt+Space
+  mode: toggle
+audio:
+  sample_rate: 16000
+  channels: 1
+  device: null
+  max_seconds: 120
+asr:
+  model_path: null
+output:
+  primary: sendinput
+  fallback: clipboard
+  mode: review
+candidate:
+  font_size: 18
+  always_on_top: true
+toolbar:
+  always_on_top: true
+  auto_hide: false
+  orientation: horizontal
+sounds:
+  enabled: true
+profile:
+  default: normal
+lua:
+  enabled: true
+  hot_reload: true
+config:
+  hot_reload: true
+engine:
+  processors: [profile_processor]
+  translators: [correction_dictionary, terminology_dictionary]
+  filters: [number_normalizer, unit_normalizer, chemistry_normalizer, 'lua:builtin/science_format', punctuation_filter, 'lua:builtin/punctuation', 'lua:user/custom', final_cleanup]

@@ -1,0 +1,8 @@
+models:
+  sensevoice-small-int8:
+    path: models/sensevoice-small-int8
+    source: https://k2-fsa.github.io/sherpa/onnx/sense-voice/pretrained.html
+    license: 'SenseVoice: Apache-2.0; Silero VAD: MIT（请查阅来源许可）'
+    archive: https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17.tar.bz2
+    vad: https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx
+    files: [model.int8.onnx, tokens.txt, silero_vad.onnx]

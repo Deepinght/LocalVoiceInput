@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "fresh_no_model",
+    "pipeline": "N₂流量为100 Nm³/h，温度为500 ℃。",
+    "trace_events": 13,
+    "model_present": false,
+    "status": "passed"
+  },
+  {
+    "mode": "existing_model",
+    "pipeline": "N₂流量为100 Nm³/h，温度为500 ℃。",
+    "trace_events": 13,
+    "model_present": true,
+    "asr_and_vad": "passed",
+    "status": "passed"
+  }
+]

@@ -1,0 +1,44 @@
+# Python environments, caches and test output
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Build and release output
+build/
+dist/
+release/
+*.zip
+
+# Downloaded models and local runtime data
+models/*
+!models/.gitkeep
+logs/
+data/
+app.lock
+*.bak
+.private-archive/
+
+# Secrets and machine-specific settings
+.env
+.env.*
+*.log
+*.sqlite3
+*.sqlite3-*
+*.part
+*.zip
+config/user.custom.yaml
+dictionaries/user.yaml
+lua/user/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.user
+.DS_Store
+Thumbs.db
+Desktop.ini
